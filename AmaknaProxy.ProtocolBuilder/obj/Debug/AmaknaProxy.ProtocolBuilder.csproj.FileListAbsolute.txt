@@ -132,3 +132,17 @@ E:\Users\Admin\Documents\GitHub\AmaknaProxy\AmaknaProxy.ProtocolBuilder\obj\Debu
 E:\Users\Admin\Documents\GitHub\AmaknaProxy\AmaknaProxy.ProtocolBuilder\obj\Debug\AmaknaProxy.ProtocolBuilder.csproj.CopyComplete
 E:\Users\Admin\Documents\GitHub\AmaknaProxy\AmaknaProxy.ProtocolBuilder\obj\Debug\AmaknaCore.ProtocolBuilder.exe
 E:\Users\Admin\Documents\GitHub\AmaknaProxy\AmaknaProxy.ProtocolBuilder\obj\Debug\AmaknaCore.ProtocolBuilder.pdb
+C:\Users\Thur\Documents\GitHub\AmaknaCore-ProtocolBuilder\AmaknaProxy.ProtocolBuilder\bin\Debug\Templates\MessageTemplate.tt
+C:\Users\Thur\Documents\GitHub\AmaknaCore-ProtocolBuilder\AmaknaProxy.ProtocolBuilder\bin\Debug\Templates\TypeTemplate.tt
+C:\Users\Thur\Documents\GitHub\AmaknaCore-ProtocolBuilder\AmaknaProxy.ProtocolBuilder\bin\Debug\Templates\EnumTemplate.tt
+C:\Users\Thur\Documents\GitHub\AmaknaCore-ProtocolBuilder\AmaknaProxy.ProtocolBuilder\bin\Debug\Templates\Helper.tt
+C:\Users\Thur\Documents\GitHub\AmaknaCore-ProtocolBuilder\AmaknaProxy.ProtocolBuilder\bin\Debug\Templates\DataCenterTemplate.tt
+C:\Users\Thur\Documents\GitHub\AmaknaCore-ProtocolBuilder\AmaknaProxy.ProtocolBuilder\bin\Debug\AmaknaCore.ProtocolBuilder.exe.config
+C:\Users\Thur\Documents\GitHub\AmaknaCore-ProtocolBuilder\AmaknaProxy.ProtocolBuilder\bin\Debug\AmaknaCore.ProtocolBuilder.exe
+C:\Users\Thur\Documents\GitHub\AmaknaCore-ProtocolBuilder\AmaknaProxy.ProtocolBuilder\bin\Debug\AmaknaCore.ProtocolBuilder.pdb
+C:\Users\Thur\Documents\GitHub\AmaknaCore-ProtocolBuilder\AmaknaProxy.ProtocolBuilder\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.dll
+C:\Users\Thur\Documents\GitHub\AmaknaCore-ProtocolBuilder\AmaknaProxy.ProtocolBuilder\obj\Debug\AmaknaProxy.ProtocolBuilder.csproj.AssemblyReference.cache
+C:\Users\Thur\Documents\GitHub\AmaknaCore-ProtocolBuilder\AmaknaProxy.ProtocolBuilder\obj\Debug\AmaknaProxy.ProtocolBuilder.csproj.CoreCompileInputs.cache
+C:\Users\Thur\Documents\GitHub\AmaknaCore-ProtocolBuilder\AmaknaProxy.ProtocolBuilder\obj\Debug\AmaknaProxy.ProtocolBuilder.csproj.CopyComplete
+C:\Users\Thur\Documents\GitHub\AmaknaCore-ProtocolBuilder\AmaknaProxy.ProtocolBuilder\obj\Debug\AmaknaCore.ProtocolBuilder.exe
+C:\Users\Thur\Documents\GitHub\AmaknaCore-ProtocolBuilder\AmaknaProxy.ProtocolBuilder\obj\Debug\AmaknaCore.ProtocolBuilder.pdb

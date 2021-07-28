@@ -16,9 +16,11 @@ namespace AmaknaProxy.ProtocolBuilder
     public class Program
     {
         public static Configuration Configuration = new Configuration();
+        public static int NotParsedfiles;
 
         private static void Main(string[] args)
         {
+            NotParsedfiles = 0;
             AppDomain.CurrentDomain.UnhandledException += OnUnhandledException;
 
             var serializer = new XmlSerializer(typeof(Configuration));
@@ -125,6 +127,7 @@ namespace AmaknaProxy.ProtocolBuilder
                     catch (InvalidCodeFileException)
                     {
                         Console.WriteLine("File {0} not parsed correctly", Path.GetFileName(file));
+                        NotParsedfiles++:
                         continue;
                     }
 
@@ -132,7 +135,10 @@ namespace AmaknaProxy.ProtocolBuilder
                 }
 
                 Console.WriteLine("Done !");
+                Console.ReadLine();
             }
+            Console.WriteLine($"All Done ! {0} files not parsed", NotParsedfiles);
+            Console.ReadLine();
         }
 
         private static void DeleteDirectory(string targetDir)

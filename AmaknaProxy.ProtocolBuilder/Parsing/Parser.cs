@@ -11,7 +11,7 @@ namespace AmaknaProxy.ProtocolBuilder.Parsing
     [Serializable]
 	public class Parser
 	{
-        public static readonly string ClassPatern = @"public class (\w+)\s";
+        public static readonly string ClassPatern = @"public class (\w+)";
         public static readonly string ClassHeritagePattern = @"extends (?:[\w_]+\.)*(\w+)";
         public static readonly string ConstructorPattern = @"(?<acces>public|protected|private|internal)\s*function\s*(?<name>{0})\((?<argument>[^,)]+,?)*\)";
         public static readonly string ConstFieldPattern = @"(?<acces>public|protected|private|internal)\s*(?<static>static)?\s*const\s*(?<name>\w+):(?<type>[\w_\.]+(?:<(?:\w+\.)*(?<generictype>[\w_<>]+)>)?)(?<value>\s*=\s*.*)?;";

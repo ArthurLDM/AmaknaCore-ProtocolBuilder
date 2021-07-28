@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{408364C5-337D-4FC5-8588-D2C7CE7CB06B}</ProjectGuid>
+    <ProjectGuid>{16AE751C-747F-4F66-AA91-2F0A6E304BBD}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AmaknaCore.ProtocolBuilder</RootNamespace>

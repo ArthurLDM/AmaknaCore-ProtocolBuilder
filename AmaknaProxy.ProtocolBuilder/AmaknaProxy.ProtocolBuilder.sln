@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmaknaCore.ProtocolBuilder", "AmaknaCore.ProtocolBuilder.csproj", "{408364C5-337D-4FC5-8588-D2C7CE7CB06B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmaknaProxy.ProtocolBuilder", "AmaknaProxy.ProtocolBuilder.csproj", "{16AE751C-747F-4F66-AA91-2F0A6E304BBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{408364C5-337D-4FC5-8588-D2C7CE7CB06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{408364C5-337D-4FC5-8588-D2C7CE7CB06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{408364C5-337D-4FC5-8588-D2C7CE7CB06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{408364C5-337D-4FC5-8588-D2C7CE7CB06B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16AE751C-747F-4F66-AA91-2F0A6E304BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16AE751C-747F-4F66-AA91-2F0A6E304BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16AE751C-747F-4F66-AA91-2F0A6E304BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16AE751C-747F-4F66-AA91-2F0A6E304BBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {561E5E92-08BE-442F-8FE4-5E0FDF6D158A}
 	EndGlobalSection
 EndGlobal
