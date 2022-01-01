@@ -274,7 +274,7 @@ namespace AmaknaProxy.ProtocolBuilder.XmlPatterns
                     {
                         if (type == "ushort" && field.Type.Contains("List<"))
                         {
-                            type = "Types." + field.Type.Replace("List<", string.Empty).Replace(">", string.Empty);
+                            type = field.Type.Replace("List<", string.Empty).Replace(">", string.Empty);
                         }
                         xmlFields.Add(new XmlField
                         {

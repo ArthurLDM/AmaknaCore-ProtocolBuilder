@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Xml;
+using AmaknaCore.ProtocolBuilder.Profiles;
 using AmaknaProxy.ProtocolBuilder.Parsing;
 using AmaknaProxy.ProtocolBuilder.Templates;
 using AmaknaProxy.ProtocolBuilder.XmlPatterns;
@@ -35,41 +36,10 @@ namespace AmaknaProxy.ProtocolBuilder.Profiles
             if (host.Errors.Count > 0)
                 Program.Shutdown();
 
-            File.WriteAllText(file + host.FileExtension, FixType(output));
+            File.WriteAllText(file + host.FileExtension, TypeFixer.FixType(output));
 
             Console.WriteLine("Wrote {0}", file);
         }
 
-        private string FixType(string type)
-        {
-
-            string _type = type;
-
-            _type = _type.Replace("ReadVarint", "ReadVarInt");
-            _type = _type.Replace("ReadVaruhint", "ReadVarUhInt");
-            _type = _type.Replace("ReadVarshort", "ReadVarShort");
-            _type = _type.Replace("ReadVaruhshort", "ReadVarUhShort");
-            _type = _type.Replace("ReadVarlong", "ReadVarLong");
-            _type = _type.Replace("ReadVaruhlong", "ReadVarUhLong");
-
-            _type = _type.Replace("WriteVarint", "WriteVarInt");
-            _type = _type.Replace("WriteVaruhint", "WriteVarInt");
-            _type = _type.Replace("WriteVarshort", "WriteVarShort");
-            _type = _type.Replace("WriteVaruhshort", "WriteVarShort");
-            _type = _type.Replace("WriteVarlong", "WriteVarLong");
-            _type = _type.Replace("WriteVaruhlong", "WriteVarLong");
-
-            _type = _type.Replace("WriteVarInt(", "WriteVarInt((int)");
-            _type = _type.Replace("WriteVarShort(", "WriteVarShort((int)");
-
-            _type = _type.Replace("varint", "int");
-            _type = _type.Replace("varuhint", "uint");
-            _type = _type.Replace("varshort", "int");
-            _type = _type.Replace("varuhshort", "uint");
-            _type = _type.Replace("varlong", "double");
-            _type = _type.Replace("varuhlong", "double");
-
-            return _type;
-        }
     }
 }

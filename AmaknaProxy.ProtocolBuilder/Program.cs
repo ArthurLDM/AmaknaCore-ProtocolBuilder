@@ -127,7 +127,7 @@ namespace AmaknaProxy.ProtocolBuilder
                     catch (InvalidCodeFileException)
                     {
                         Console.WriteLine("File {0} not parsed correctly", Path.GetFileName(file));
-                        NotParsedfiles++:
+                        NotParsedfiles++;
                         continue;
                     }
 

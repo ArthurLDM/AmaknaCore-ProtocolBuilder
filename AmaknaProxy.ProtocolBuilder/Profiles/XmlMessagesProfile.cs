@@ -22,7 +22,8 @@ namespace AmaknaProxy.ProtocolBuilder.Profiles
                         {@"(var\s|this\.)object(?![\w\d])", @"$1@object"},
                         {@"(var\s|this\.)operator(?![\w\d])", @"$1@operator"},
                         {@"this\.", string.Empty},
-                        // delete this, it's useless
+                        // delete this, it's uselessv
+                        {@"(var\s|this\.)lock(?![\w\d])", @"$1@lock"},
 
                         {@"\bNetworkMessage", @"Message"},
                         // renaming to correspond with DofusProtocol names

@@ -21,6 +21,7 @@ namespace AmaknaProxy.ProtocolBuilder.Profiles
                         // add '@' on variable name that are keyword in c#,
                         {@"(var\s|this\.)object(?![\w\d])", @"$1@object"},
                         {@"(var\s|this\.)operator(?![\w\d])", @"$1@operator"},
+                        {@"(var\s|this\.)lock(?![\w\d])", @"$1@lock"},
                         // operator to @operator because it's a keyword
 
                         {@"this\.", string.Empty},

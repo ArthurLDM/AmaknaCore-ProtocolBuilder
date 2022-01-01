@@ -70,6 +70,7 @@
     <Compile Include="Profiles\EnumsProfile.cs" />
     <Compile Include="Profiles\MessagesProfile.cs" />
     <Compile Include="Profiles\ParsingProfile.cs" />
+    <Compile Include="Profiles\TypeFixer.cs" />
     <Compile Include="Profiles\TypesProfile.cs" />
     <Compile Include="Profiles\XmlMessagesProfile.cs" />
     <Compile Include="Profiles\XmlTypesProfile.cs" />
